@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Lana-flipper",
+  "version": "1.0.0",
+  "description": "Ekstensi untuk membalikan nasib lana",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }],
+  
+   "icons": {
+      "16": "yy16.png",
+      "48": "yy48.png",
+      "128": "yy128.png"
+    }
+}
